@@ -45,7 +45,10 @@ const App: React.FC = () => {
       </div>
       <div className="footer">
         <div>Designed by Richmond Softworks</div>
-        <div>&lt;Github link&gt;</div>
+        <a className="github-link" href="https://github.com/richmondsoftworks/copy-id" target="_blank">
+          <img src="git.svg" alt="git" />
+          <span>github</span>
+        </a>
       </div>
     </>
   );
