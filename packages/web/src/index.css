@@ -25,8 +25,8 @@ body {
   min-height: 100vh;
 }
 
-.nav,
-.footer {
+header,
+footer {
   background: #444444f5; /* #616161e3; */
   color: #eee;
 }
@@ -47,11 +47,11 @@ body {
   padding-top: 0.75rem;
 }
 
-.main {
+main {
   flex: 1 1 0px;
 }
 
-.footer {
+footer {
   color: white;
   display: flex;
   align-items: center;
@@ -59,21 +59,21 @@ body {
   min-height: 3rem;
 }
 
-.footer > * {
+footer > * {
   margin-right: 2rem;
 }
 
-.footer .github-link {
+footer .github-link {
   display: flex;
   align-items: center;
 }
 
-.footer .github-link > img {
+footer .github-link > img {
   width: 1.25rem;
   margin-right: 0.25rem;
 }
 
-.footer .github-link > span {
+footer .github-link > span {
   margin-top: -0.25rem;
 }
 
@@ -113,9 +113,9 @@ body {
 }
 
 /* responsive */
-.nav,
-.main,
-.footer {
+header,
+main,
+footer {
   padding: 0.5rem 1rem;
 }
 
@@ -125,9 +125,9 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .nav,
-  .main,
-  .footer {
+  nav,
+  main,
+  footer {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -135,9 +135,9 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .nav,
-  .main,
-  .footer {
+  nav,
+  main,
+  footer {
     padding-left: 20%;
     padding-right: 20%;
   }

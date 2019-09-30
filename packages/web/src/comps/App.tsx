@@ -15,13 +15,13 @@ const App: React.FC = () => {
 
   return (
     <>
-      <div className="nav">
+      <header>
         <div className="brand">
           <img className="logo" src="popper.svg" alt="Copy Id Logo" />
           <div className="name">Copy Id</div>
         </div>
-      </div>
-      <div className="main">
+      </header>
+      <main>
         <p>Click a strategy to generate a new value. The value is automatically copied to your clipboard.</p>
         <div className="btn-group">
           <button
@@ -42,14 +42,14 @@ const App: React.FC = () => {
             <p key={x}>{x}</p>
           ))}
         </div>
-      </div>
-      <div className="footer">
+      </main>
+      <footer>
         <div>Designed by Richmond Softworks</div>
         <a className="github-link" href="https://github.com/richmondsoftworks/copy-id" target="_blank" rel="noopener">
           <img src="git.svg" alt="git" />
           <span>github</span>
         </a>
-      </div>
+      </footer>
     </>
   );
 };
