@@ -125,7 +125,7 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  nav,
+  header,
   main,
   footer {
     padding-left: 10%;
@@ -135,7 +135,7 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  nav,
+  header,
   main,
   footer {
     padding-left: 20%;
