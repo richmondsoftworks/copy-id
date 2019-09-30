@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Chilanka&display=swap");
 
 :root {
-  --primary: #ff9300;
-  --primary-alt: white;
+  --primary: #137c95;
 }
 
 a {
@@ -99,7 +98,7 @@ footer .github-link > span {
 
 .btn-primary {
   background: var(--primary);
-  color: var(--primary-alt);
+  color: white;
 }
 
 .btn-group {
